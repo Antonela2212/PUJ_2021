@@ -16,7 +16,7 @@ public class Liste {
         try {
             //Spajanje na bazu
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection konekcija= DriverManager.getConnection("jdbc:mysql://localhost:3307/evidencija","root", "");
+            Connection konekcija= DriverManager.getConnection("jdbc:mysql://localhost:3306/evidencija","root", "");
 
             //Lista svih objekata
             List<Nastavnik> nastavnici = new ArrayList<Nastavnik>();
